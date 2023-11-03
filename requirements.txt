@@ -8,4 +8,4 @@ six==1.16.0
 sqlparse==0.4.4
 typing-extensions
 tzdata==2023.3
-
+Pillow
