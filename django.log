@@ -160,3 +160,16 @@ Using proactor: IocpProactor
 Using proactor: IocpProactor
 Using proactor: IocpProactor
 Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Forbidden (CSRF token missing or incorrect.): /admin/login/
+Forbidden (CSRF token missing or incorrect.): /admin/login/
+Forbidden (CSRF token missing or incorrect.): /admin/login/
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\urls.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Using proactor: IocpProactor
+Watching for file changes with StatReloader

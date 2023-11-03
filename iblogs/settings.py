@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4b5=kb%i^!ujji594f%cw6a=%5o#oq_dq1ue&zhzwkh=hr6jkv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['creativeatul.tech','creativeatul.onrender.com','*']
 
 # Application definition
 
