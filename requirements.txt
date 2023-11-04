@@ -9,5 +9,8 @@ sqlparse==0.4.4
 typing-extensions
 tzdata==2023.3
 Pillow
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 113dac66dd2260b7c5207652998c8116bd80e16b
