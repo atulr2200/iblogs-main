@@ -15,7 +15,8 @@ def home(request):
     random.shuffle(random_posts)
     
     # Get the first 11 random posts
-    posts = random_posts[:11]
+    posts = random_posts
+    
 
     # Get all categories
     cats = Category.objects.all()
