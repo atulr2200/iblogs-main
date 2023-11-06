@@ -21,16 +21,8 @@ from django.conf import settings
 urlpatterns = [
                   path('admin/', admin.site.urls),
                   path('', include('blog.urls'))
-<<<<<<< HEAD
-              ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-=======
-              ] 
+]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
->>>>>>> 720e330a01922b4a21d44d5bd811ea95ccdaf373
