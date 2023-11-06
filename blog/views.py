@@ -16,7 +16,6 @@ def home(request):
     
     # Get the first 11 random posts
     posts = random_posts
-
     # Get all categories
     cats = Category.objects.all()
 
