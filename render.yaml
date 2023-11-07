@@ -1,0 +1,15 @@
+services:
+  - name: web
+    buildCommand: python manage.py collectstatic --noinput
+    startCommand: gunicorn iblogs.wsgi:app
+    environment:
+      DJANGO_SECRET_KEY: django-insecure-4b5=kb%i^!ujji594f%cw6a=%5o#oq_dq1ue&zhzwkh=hr6jkv
+      ALLOWED_HOSTS: creativeatul.onrender.com
+
+staticDirectories:
+  - source: /static/
+    destination: /static/
+
+mediaDirectories:
+  - source: /media/
+    destination: /media/
