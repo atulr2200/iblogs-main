@@ -344,3 +344,207 @@ Watching for file changes with StatReloader
 C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\urls.py changed, reloading.
 Using proactor: IocpProactor
 Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sarvadnya\Desktop\img\iblogs-main\blog\views.py", line 27, in home
+    return render(request, 'home.html', data)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loaders\cached.py", line 53, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static'. Did you forget to register or load this tag?
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sarvadnya\Desktop\img\iblogs-main\blog\views.py", line 27, in home
+    return render(request, 'home.html', data)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 4: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: "static'img/at.png'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sarvadnya\Desktop\img\iblogs-main\blog\views.py", line 27, in home
+    return render(request, 'home.html', data)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'static'img/at.png''. Did you forget to register or load this tag?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: "static'img/at.png'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sarvadnya\Desktop\img\iblogs-main\blog\views.py", line 27, in home
+    return render(request, 'home.html', data)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\sarvadnya\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\base.py", line 530, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 31: 'static'img/at.png''. Did you forget to register or load this tag?
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+C:\Users\sarvadnya\Desktop\img\iblogs-main\iblogs\settings.py changed, reloading.
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Using proactor: IocpProactor
+Watching for file changes with StatReloader
