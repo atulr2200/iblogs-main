@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -138,7 +137,7 @@
 
 
 
-   <div id="carouselExampleCaptions" class="carousel slide" style="box-shadow: 0 5px 25px rgb(1 1 1 / 20%);">
+   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -146,21 +145,21 @@
     </div>
     <div class="carousel-inner">
     <div class="carousel-item active">
-        <img src=" {% static 'img/ramon-salinero.jpg'%}" height="500px"  class="d-block w-100"  alt="...">
+        <img src="/../static/img/ramon-salinero.jpg" height="500px"  class="d-block w-100"  alt="...">
         <div class="carousel-caption d-none d-md-block">
         <h5>Tech Blogs</h5>
         <p>Tech blogs provide insightful updates on the ever-evolving world of technology.</p>
         </div>
     </div>
     <div class="carousel-item">
-        <img src="{% static 'img/unsplash.jpg'%}" height="500px"  class="d-block w-100 " alt="...">
+        <img src="/../static/img/unsplash.jpg" height="500px"  class="d-block w-100 " alt="...">
         <div class="carousel-caption d-none d-md-block">
         <h5>Modern Technologies</h5>
         <p>Modern technologies are shaping the future with innovation and connectivity at their core.</p>
         </div>
     </div>
     <div class="carousel-item">
-        <img src="{% static 'img/emile-perron.jpg'%}" height="500px" class="d-block w-100 " alt="...">
+        <img src="/../static/img/emile-perron.jpg" height="500px" class="d-block w-100 " alt="...">
         <div class="carousel-caption d-none d-md-block">
         <h5>Programming Languages</h5>
         <p>Programming languages are tools for expressing instructions to computers effectively.</p>
@@ -184,7 +183,7 @@
         {%for p in posts %}
             <div class="car">
               <a href="/blog/{{p.url}}" style="text-decoration: none;">
-                <div class="card-imag"><img src="{{ p.image.url }}" style="height: 200px; width: 100%;" alt=""></div>
+                <div class="card-imag"><img src="/media/{{p.image}}" style="height: 200px; width: 100%;" alt=""></div>
                 <div class="card-inf">
                 <h5>{{p.title |truncatewords:7}}</h5>
                 <p>{{p.content |truncatewords:13 | safe}}</p>
